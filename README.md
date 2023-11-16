@@ -22,18 +22,18 @@ This is a simple Go project that demonstrates how to interact with a PostgreSQL 
 
 Project Structure:
 
-main.go: Contains the main functionality of the project, including database connection, table creation, product insertion, and random data generation.
+- main.go: Contains the main functionality of the project, including database connection, table creation, product insertion, and random data generation.
 
-README.md: This file, providing information about the project.
+- README.md: This file, providing information about the project.
 
-Functions:
+- Functions:
 
-createProductTable(db, \*sql.DB): Creates a 'product' table in the PostgreSQL database.
+- createProductTable(db, \*sql.DB): Creates a 'product' table in the PostgreSQL database.
 
-insertProduct(db sql.DB, product Product) int: Inserts a product into the 'product' table and returns the generated ID.
+- insertProduct(db sql.DB, product Product) int: Inserts a product into the 'product' table and returns the generated ID.
 
-generateProduct(db, \*sql.DB): Generates and inserts random products into the 'product' table.
+- generateProduct(db, \*sql.DB): Generates and inserts random products into the 'product' table.
 
-generateRandomProduct() string: Generates a random product name from a predefined list.
+- generateRandomProduct() string: Generates a random product name from a predefined list.
 
-generatePrice()float64: Generates a random price for a product.
+- generatePrice()float64: Generates a random price for a product.
